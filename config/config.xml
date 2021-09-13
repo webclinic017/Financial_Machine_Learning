@@ -1,0 +1,45 @@
+<ConditionMonitoring>
+	<initID>
+
+		<!-- Amount of Data in years -->
+        <Data_years
+				years = ""
+		/>
+
+		<!-- Constants for Labeling methods -->
+        <Labeling_fixed_time_horizon
+				sensivity = ""
+                binary = ""
+		/>
+
+		<Labeling_trilpe_barrier_method
+				h = ""
+                num_days = ""
+				factors = ""
+				binary = ""
+		/>
+
+		<!-- Constants for adjust Dataframe methods -->
+		<adjust_Dataframe
+				pca = ""
+		/>
+
+		<!-- Constants for select_feature methods -->
+		<feature_selection
+				number_cols = ""
+		/>
+
+		<!-- Constants for cross validation methods -->
+		<Labeling_fixed_time_horizon
+			    n_splits = ""
+				pct_emb = ""
+		/>
+
+		<!-- Constants for build_model Hyperparameters -->
+		<Labeling_fixed_time_horizon
+			    n_splits = ""
+				pct_emb = ""
+		/>
+
+	</initID>
+</ConditionMonitoring>

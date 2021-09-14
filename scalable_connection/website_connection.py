@@ -41,11 +41,11 @@ and many more
 # get element login with email adress
 email_login = driver.find_element_by_name("username")
 
-email_login.send_keys("simon.leiner1@gmail.com")
+email_login.send_keys("")
 
 email_pw = driver.find_element_by_name("password")
 
-email_pw.send_keys("167hTW!=7xz")
+email_pw.send_keys("")
 
 login_button = driver.find_element_by_xpath('//*[@id="page"]/div/div[3]/div[2]/div/div/div/form/div/div[2]/button')
 
